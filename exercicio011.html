@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>Verificador de País Simples</h1>
+    <p>Verificador Simples de País: 
+    <input type="text" id="pais" placeholder="Digite o nome do país"> <input type="button" id="verificador" value="Verificar" onclick="verificar()"></p>
+    <p>Situação: <span id="resposta">Digite o nome do país</span></p>
+
+
+    <script>
+        function verificar(){
+            var pais = document.getElementById("pais").value.toLowerCase();
+            if(pais === "brasil"){
+                document.getElementById("resposta").innerHTML = "Você é Brasileiro!";
+            } else {
+                document.getElementById("resposta").innerHTML = "Você é Estrangeiro!";
+            }
+        }
+    </script>
+</body>
+</html>
