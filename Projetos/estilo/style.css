@@ -19,7 +19,20 @@ main{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.358);
 }
 
+div#msg{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-style: italic;
+}       
+
+img{
+    width: 100%;
+    border-radius: 0.5em;
+    margin: auto;
+}
 footer{
     color: white;
     text-align: center;
+    font-style: italic;
 }
